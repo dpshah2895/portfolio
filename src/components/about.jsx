@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am currently working at Barclays Investment Bank, NYC as a Full Stack Software Engineer in the Client Facing Team. I have worked in a varied and dynamic environment and have about 1.5+ years of industrial experience.</p>
+                    <p>I am currently working at Barclays Investment Bank, NYC as a Full Stack Software Engineer in the Client Facing Technology Team. I have worked in a varied and dynamic environment and have about 1.5+ years of industrial experience.</p>
                     <p>Prior to that, I did my Masters in Computer Science from University of California, Irvine which is a reputed university in the US.
                      I am passionate about CS & I love to code because it's fun and makes a difference to peoples life. I am not a geek though :P</p>
                     </div>
@@ -39,7 +39,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Full Stack Development </h3>
-                    <p>I have experience building several perfomance driven scalable software solutions using technologies like Java, Python, C++, HTML, CSS, JS, Angular, React, SQL and so on ...</p>
+                    <p>I have experience building several performance driven scalable software solutions using technologies like Java, Python, C++, HTML, CSS, JS, Angular, React, SQL and so on ...</p>
                 </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
   render() {
@@ -7,12 +9,7 @@ export default class Home extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/img_chai.jpg)',
-                                 backgroundPosition: 'center',
-                                 backgroundSize: 'cover',
-                                 backgroundRepeat: 'no-repeat',
-                                 width: '100vw',
-                                 height: 'auto'}}>
+              <li style={{backgroundImage: 'url(images/justWhite.jpeg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -27,12 +24,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/img_chai.jpg)',
-                     backgroundPosition: 'center',
-                     backgroundSize: 'cover',
-                     backgroundRepeat: 'no-repeat',
-                     width: '100vw',
-                     height: '100vh'
+              <li style={{backgroundImage: 'url(images/justWhite.jpeg)',
              } }>
                 <div className="overlay" />
                 <div className="container-fluid">
@@ -50,8 +42,22 @@ export default class Home extends Component {
               </li>
             </ul>
           </div>
+
         </section>
+        <div className="container" style={{
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+          <div className="center" style ={{
+            width: '75%',
+            marginLeft: 'auto'
+          }}>Scroll Down To Know More!!!<br/>
+          <FontAwesomeIcon icon={ faAngleDoubleDown } style={{marginLeft: '10%'}}/>
+          
+          </div>
+          </div>
       </div>
+      
     )
   }
 }

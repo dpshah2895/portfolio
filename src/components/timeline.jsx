@@ -44,7 +44,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Bachelors in Engineering from K.J.Somaiya COE<span>2013-2017</span></h2>
-                        <p>I did my BE from K.J.Somaiya College of Engineering which is an autonomous university in Mumbai. I graduated with a GPA of 8.3/10. I took courses like DBMS, Software Engineering, Microprocessors and so on...Prior to BE, I went to T.P.Bhatia Jr College of Science for HSE and I was the topper at SVP school during my SSC.</p> 
+                        <p>I did my BE from K.J.Somaiya College of Engineering which is an autonomous university in Mumbai, India. I graduated with a GPA of 8.3/10. I took courses like DBMS, Software Engineering, Microprocessors and so on...Prior to BE, I went to T.P.Bhatia Jr College of Science for HSE and I was the topper at Sardar Patel school during my SSC.</p>
                       </div>
                     </div>
                   </article>
@@ -58,8 +58,36 @@ export default class Timeline extends Component {
               </div>
             </div>
           </div>
+
         </section>
-      </div>
+        <div>
+        <div className="container" style={{
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+          <div className="center" style ={{
+            width: '800px',
+            marginLeft: '20%'
+          }}><span><b>Count: </b></span>
+            <a href={`https://www.hitwebcounter.com`} target="_blank" rel="noopener noreferrer">            
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7283944&style=0001&nbdigits=6&type=page&initCount=1"
+              title="User Stats" 
+              Alt="This website has been visited" 
+              border="0"
+            />            
+          </a>
+          </div>
+        </div>
+          {/* <a href={`https://www.hitwebcounter.com`} target="_blank" rel="noopener noreferrer">            
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7283944&style=0001&nbdigits=6&type=page&initCount=1"
+              title="User Stats" 
+              Alt="This website has been visited" 
+              border="0"
+            />            
+          </a> */}
+          </div>
+        </div>
+       
     )
   }
 }
